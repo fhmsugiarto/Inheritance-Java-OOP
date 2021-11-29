@@ -24,7 +24,7 @@ public abstract class vehicle{
     }
    
     
-    public void result(){
-        System.out.println("Brand : "+brand+ "\nYear : "+year);
+    public String toString(){
+        return "Brand = "+this.getBrand()+ "\nYear = "+ this.getYear();
     }
 }

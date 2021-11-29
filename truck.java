@@ -16,9 +16,8 @@ public class truck extends vehicle{
     }
     
     @Override
-    public void result(){
-        System.out.println("Brand : "+getBrand()+ "\nMax Capacity : "+getMax());
+    public String toString(){
+        return "Brand = "+ this.getBrand()+"\nMax Capacity = "+this.getMax();
     }
-    
 
 }

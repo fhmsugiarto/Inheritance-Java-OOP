@@ -15,8 +15,8 @@ public class miniBus extends vehicle{
         return capacity;
     }
     
-    @Override
-    public void result(){
-        System.out.println("Brand : "+getBrand()+ "\nMax Passenger : "+getCapacity());
+    @Override    
+    public String toString(){
+        return "Brand = "+ this.getBrand()+"\nMax Passenger = "+this.getCapacity();
     }
 }
