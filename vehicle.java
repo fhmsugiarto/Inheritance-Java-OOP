@@ -1,7 +1,7 @@
 //abstract class
 public abstract class vehicle{
     private String brand, year;
-
+    //constructor
     public vehicle(String brand, String year){
         this.setBrand(brand);
         this.setYear(year);
@@ -23,7 +23,7 @@ public abstract class vehicle{
         return year;
     }
    
-    
+    //method toString()
     public String toString(){
         return "Brand = "+this.getBrand()+ "\nYear = "+ this.getYear();
     }
