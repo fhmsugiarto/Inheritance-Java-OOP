@@ -8,3 +8,9 @@ public class demoVehicle{
         System.out.println(truck1);
     }
 }
+
+/*
+    Nama : Mohammad Nurfahmi Sugiarto
+    NIM  : 4103700620033
+    Kelas/Semester : Teknik Informatika A1/2
+ */

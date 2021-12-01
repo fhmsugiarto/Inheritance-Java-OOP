@@ -1,23 +1,21 @@
 //inheritance from class vehicle
 public class truck extends vehicle{
-    int max;
-    public truck(String brand, int max){
+    int capacity;
+    public truck(String brand, int capacity){
         super(brand, null);
-        this.setMax(max);
+        this.setCapacity(capacity);
     }
-    
-    //setter
-    public void setMax(int max){
-        this.max=max;
+    //setter encapsulation
+    public void setCapacity(int capacity){
+        this.capacity=capacity;
     }
-    //getter
-    public int getMax(){
-        return max;
+    //getter encapsulation
+    public int getCapacity(){
+        return capacity;
     }
-    
     @Override
     public String toString(){
-        return "Brand = "+ this.getBrand()+"\nMax Capacity = "+this.getMax();
+        return "Brand = "+ this.getBrand()+"\nMax Capacity = "+this.getCapacity();
     }
 
 }

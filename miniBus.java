@@ -1,22 +1,20 @@
 //inheritance from class vehichle
 public class miniBus extends vehicle{
-  private int capacity;
-    public miniBus(String brand, int capacity){
+  private int passenger;
+    public miniBus(String brand, int passenger){
         super(brand,null);
-        this.setCapacity(capacity);
+        this.setPassenger(passenger);
     }
-    
-    //setter
-    public void setCapacity(int capacity){
-        this.capacity=capacity;
+    //setter encapsulation
+    public void setPassenger(int passenger){
+        this.passenger=passenger;
     }
-    //getter
-    public int getCapacity(){
-        return capacity;
+    //getter encapsulation
+    public int getPassenger(){
+        return passenger;
     }
-    
     @Override    
     public String toString(){
-        return "Brand = "+ this.getBrand()+"\nMax Passenger = "+this.getCapacity();
+        return "Brand = "+ this.getBrand()+"\nMax Passenger = "+this.getPassenger();
     }
 }

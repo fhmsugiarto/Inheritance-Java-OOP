@@ -6,23 +6,20 @@ public abstract class vehicle{
         this.setBrand(brand);
         this.setYear(year);
     }
-    
-    //setter 
+    //setter encapsulation
     public void setBrand(String brand){
         this.brand=brand;
     }
     public void setYear(String year){
         this.year=year;
     }
-       
-    //getter
+    //getter encapsulation
     public String getBrand(){
         return brand;
     }
     public String getYear(){
         return year;
     }
-   
     //method toString()
     public String toString(){
         return "Brand = "+this.getBrand()+ "\nYear = "+ this.getYear();
